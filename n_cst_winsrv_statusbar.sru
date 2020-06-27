@@ -11,6 +11,7 @@ global n_cst_winsrv_statusbar n_cst_winsrv_statusbar
 
 on n_cst_winsrv_statusbar.create
 TriggerEvent( this, "constructor" )
+string ls_test = "111"
 end on
 
 on n_cst_winsrv_statusbar.destroy
