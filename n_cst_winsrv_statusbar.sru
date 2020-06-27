@@ -12,6 +12,7 @@ global n_cst_winsrv_statusbar n_cst_winsrv_statusbar
 on n_cst_winsrv_statusbar.create
 TriggerEvent( this, "constructor" )
 string ls_TEST="222"
+Integer li_test = 1
 end on
 
 on n_cst_winsrv_statusbar.destroy
