@@ -5,7 +5,7 @@ end type
 end forward
 
 global type u_cb_save from u_cb
-string Text="&Save"
+string Text="&SaveAS"
 end type
 global u_cb_save u_cb_save
 
